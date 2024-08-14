@@ -1,14 +1,17 @@
 // vercel --prod
 const fs = require('fs');
+const path = require('path');
 const jsonServer = require('json-server');
 const cors = require('cors');
-const path = require('path');
 
 const server = jsonServer.create();
 
 server.use(cors());
 
-const router = jsonServer.router(path.resolve(__dirname, 'db.json'));
+const db = JSON.parse(fs.readFileSync(path.join('db.json')));
+const router = jsonServer.router(db);
+
+// const router = jsonServer.router(path.resolve(__dirname, 'db.json'));
 
 server.use(jsonServer.defaults({}));
 server.use(jsonServer.bodyParser);
