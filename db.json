@@ -1575,6 +1575,18 @@
       "userId": "3",
       "text": "qweqrt",
       "id": "XTiaB2v"
+    },
+    {
+      "articleId": "4",
+      "userId": "1",
+      "text": "test228",
+      "id": "VtCv1tE"
+    },
+    {
+      "articleId": "4",
+      "userId": "1",
+      "text": "TESTTEST",
+      "id": "U8R--DP"
     }
   ],
   "users": [
@@ -1584,15 +1596,15 @@
       "password": "123",
       "roles": ["ADMIN"],
       "features": {
-        "isArticleRatingEnabled": true,
         "isProfileEditEnabled": true,
-        "isAddCommentEnabled": false,
-        "isAppRedesigned": false
+        "isAddCommentEnabled": true,
+        "isEditLoginEnabled": false,
+        "isEditAvatarEnabled": false
       },
       "jsonSettings": {
-        "theme": "app_orange_theme"
+        "theme": "app_dark_theme"
       },
-      "avatar": "https://2.downloader.disk.yandex.kz/preview/922bcc92ea05b45a13e5b947e8d857df60015823b224a2c9377f84971ece80e2/inf/xy2aN4qiyJBaIw9tdaKubWYPatbyEq8mOAOgg9FdCQqsZt6zC-us8AA5W85y7o7TCw0frz_3KS7XwxGn4w0McQ%3D%3D?uid=1397265792&filename=2.JPG&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=1397265792&tknv=v2&size=1920x970"
+      "avatar": "https://avatars.githubusercontent.com/u/129574873?v=4"
     },
     {
       "id": "2",
@@ -1600,17 +1612,15 @@
       "password": "123",
       "roles": ["USER"],
       "features": {
-        "isArticleRatingEnabled": false,
-        "isCounterEnabled": false,
-        "isAppRedesigned": false
+        "isProfileEditEnabled": false,
+        "isAddCommentEnabled": true,
+        "isEditLoginEnabled": false,
+        "isEditAvatarEnabled": false
       },
       "jsonSettings": {
-        "theme": "app_orange_theme",
-        "isFirstVisit": true,
-        "settingsPageHasBeenOpen": false,
-        "isArticlesPageWasOpened": true
+        "theme": "app_light_theme"
       },
-      "avatar": "https://avatars.dzeninfra.ru/get-zen_doc/5327700/pub_634d11eb9de7f5753f556834_634d1e2f9853e80abd26a73f/scale_1200"
+      "avatar": "https://cdn.pixabay.com/photo/2016/06/20/04/30/asian-man-1468032_1280.jpg"
     },
     {
       "id": "3",
@@ -1618,14 +1628,13 @@
       "password": "123",
       "roles": ["MANAGER"],
       "features": {
-        "isArticleRatingEnabled": false,
-        "isCounterEnabled": true
+        "isProfileEditEnabled": false,
+        "isAddCommentEnabled": true,
+        "isEditLoginEnabled": false,
+        "isEditAvatarEnabled": false
       },
       "jsonSettings": {
-        "theme": "app_orange_theme",
-        "isFirstVisit": true,
-        "settingsPageHasBeenOpen": false,
-        "isArticlesPageWasOpened": true
+        "theme": "app_dark_theme"
       },
       "avatar": "https://cdn.pixabay.com/photo/2023/11/10/02/30/woman-8378634_1280.jpg"
     }
@@ -1635,12 +1644,12 @@
       "id": "1",
       "first": "Meirzhan",
       "lastname": "Beimishev",
-      "age": 22,
+      "age": 21,
       "currency": "KZT",
       "country": "Kazakhstan",
       "city": "Almaty",
       "username": "meirzhhan",
-      "avatar": "https://2.downloader.disk.yandex.kz/preview/922bcc92ea05b45a13e5b947e8d857df60015823b224a2c9377f84971ece80e2/inf/xy2aN4qiyJBaIw9tdaKubWYPatbyEq8mOAOgg9FdCQqsZt6zC-us8AA5W85y7o7TCw0frz_3KS7XwxGn4w0McQ%3D%3D?uid=1397265792&filename=2.JPG&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=1397265792&tknv=v2&size=1920x970"
+      "avatar": "https://avatars.githubusercontent.com/u/129574873?v=4"
     },
     {
       "id": "2",
@@ -1650,7 +1659,7 @@
       "currency": "USD",
       "country": "Belarus",
       "city": "Minsk",
-      "username": "someone",
+      "username": "user",
       "avatar": "https://cdn.pixabay.com/photo/2016/06/20/04/30/asian-man-1468032_1280.jpg"
     },
     {
@@ -1740,6 +1749,25 @@
       "rate": 4,
       "feedback": "top",
       "id": "SjGurqj"
+    },
+    {
+      "userId": "1",
+      "articleId": "16",
+      "rate": 5,
+      "feedback": "Feedback some",
+      "id": "H_X_Fcy"
+    },
+    {
+      "userId": "1",
+      "articleId": "13",
+      "rate": 4,
+      "id": "7I9YNGc"
+    },
+    {
+      "userId": "2",
+      "articleId": "2",
+      "rate": 5,
+      "id": "_2SmtR5"
     }
   ]
 }
